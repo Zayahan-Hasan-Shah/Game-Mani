@@ -1,0 +1,106 @@
+
+.feature__subtitle, .feature__title span{
+    color: #44337a;
+}
+
+.feature__text, .feature__item p{
+    color: #777;
+}
+
+.game__category{
+    background: #18122B;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 8px;
+    
+}
+
+.game__category ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+.game__category button{
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    background: transparent;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.GameBtnActive{
+    background: #fff !important;
+    border-radius: 5px;
+    color: #18122B !important;
+}
+
+
+
+@media only screen and (max-width:768px){
+
+    .hero__content h5{
+        font-size: 1rem;
+    }
+
+    .hero__content p {
+        font-size: 0.8rem;
+        line-height: 25px;
+    }
+
+    .hero__title{
+        font-size: 1.5rem;
+        line-height: 40px;
+    }
+
+    .hero__btns button{
+        padding: 5px 15px;
+        font-size: 0.7rem;
+
+    }
+
+    .hero__btns p{
+        font-size: 0.7rem !important;
+    }
+
+
+    .game__category{
+        padding: 15px;
+    }
+
+    .game__category button{
+        padding: 5px 10px;
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .hero__content{
+        text-align: center;
+    }
+
+    .hero__btns{
+        justify-content: center;
+        padding: 5px 15px;
+        font-size: 0.7rem;
+    }
+
+    .hero__service{
+        justify-content: center;
+        
+    }
+}
+
+@media only screen and (max-width:540px){
+    .hero__service p{
+        font-size: 0.6rem;
+    }
+}
+
+@media only screen and (max-width:380px){
+    .game__category ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

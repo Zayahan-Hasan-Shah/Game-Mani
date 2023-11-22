@@ -1,0 +1,26 @@
+
+
+.checkout__bill{
+    background: #0C134F;
+    padding: 30px;
+    margin-top: 68px;
+}
+
+.checkout__bill h6, .checkout__total h5{
+    color: #EEEEEE;
+}
+
+.checkout__form{
+    background: #0C134F;
+}
+
+
+@media only screen and (max-width: 768px){
+    .checkout__bill h6{
+        font-size: 0.9rem;
+    }
+    .checkout__bill{
+        margin-top: 40px;
+    }
+
+}

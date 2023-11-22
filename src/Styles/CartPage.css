@@ -1,0 +1,27 @@
+th{
+    text-align: center;
+}
+
+.cart__img-box{
+    width: 80px;
+}
+
+.cart__img-box img{
+    width: 100%;
+}
+
+.cart__item-del .deletecart{
+    cursor: pointer;
+}
+
+.cart__page-btn{
+    display:flex ;
+    flex-wrap: nowrap;
+    margin: 2rem 0;
+}
+
+.bill button a{
+    text-decoration: none;
+    color: #fff;
+}
+

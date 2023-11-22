@@ -1,0 +1,74 @@
+.hero-background{
+    background: #18122B;
+}
+
+.hero__content{
+    padding: 70px;
+}
+
+.hero__content h5{
+    color: #FAF0E6;
+}
+
+.hero__title{
+    font-size: 2.5rem;
+    line-height: 55px;
+    color: #C8B6A6;
+}
+
+.hero__title span{
+    color: #FAF0E6;
+}
+
+.hero__content p{
+    font-size: 1rem;
+    line-height: 30px;
+    color: #5B8FB9;
+}
+
+.hero__btns button{
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.order__btn{
+    background: #111D5E;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.order__btn:hover{
+    background: #df2020;
+}
+
+.all__games-btn{
+    background: transparent;
+    border: 1px solid #fff !important;
+}
+
+.all__games-btn a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero__sevice p{
+    color: #FAF0E6;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.shipping__icon .i{
+    padding: 5px;
+    background: #111D5E;
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 500 !important;
+
+}
+
+.hero__img{
+    display: flex;
+}

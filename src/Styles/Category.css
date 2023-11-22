@@ -1,0 +1,35 @@
+
+.category__heading{
+    background: #18122B;
+    color: #FAF0E6;
+    line-height: 60px;
+    border-radius: 10px;
+}
+
+.category__item{
+    background: #18122B;
+    padding: 30px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.category__item:hover{
+    transform: translateY(-15px);
+}
+
+.category__item h6{
+    color: #FAF0E6;
+}
+
+
+@media only screen and (max-width:576px){
+    .category__item{
+        width: 50px;
+        height: 60px;
+    }
+
+    .category__item h6{
+        font-size: 0.8rem;
+    }
+}
